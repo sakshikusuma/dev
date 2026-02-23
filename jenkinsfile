@@ -6,7 +6,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'master',
-                    url: 'hhttps://github.com/sakshikusuma/dev.git',
+                    url: 'https://github.com/sakshikusuma/dev.git',
                     credentialsId: 'github-token'
             }
         }
